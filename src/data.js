@@ -4,8 +4,8 @@ export const personalInfo = {
   email: "tusharshinderajput2004@gmail.com",
   role: "Aspiring Software Developer",
   summary: "Aspiring Software Developer with strong foundation in backend development using Java, Spring Boot, and relational databases. Experienced in building REST APIs and full-stack applications using React and Docker. Passionate about solving real-world problems through scalable backend systems and efficient code.",
-  github: "https://github.com",
-  linkedin: "https://linkedin.com"
+  github: "https://github.com/Tushar1234shinde",
+  linkedin: "https://linkedin.com/in/tushar-shinde-link"
 };
 
 export const skillsData = {
@@ -18,6 +18,30 @@ export const skillsData = {
 };
 
 export const projectsData = [
+  {
+    title: "ServiceHub - Home Services Marketplace",
+    techStack: ["React", "Spring Boot", "Tailwind CSS", "PostgresSQL"],
+    description: [
+      "Full-stack home services marketplace",
+      "Helps clients discover trusted vendors for home maintenance",
+      "Includes painting, plastering, window making, POP work, renovation, cleaning, and maintenance services",
+      "Vendor and client dashboards with order and review workflows"
+    ],
+    github: "https://github.com/Tushar1234shinde/ServiceHub.git",
+    live: "https://service-hub-self-eta.vercel.app"
+  },
+  {
+    title: "DSA Visualizer",
+    techStack: ["React", "Vite", "Tailwind CSS", "Motion"],
+    description: [
+      "Modern Data Structures and Algorithms visualizer",
+      "Designed to help learners understand algorithm flow",
+      "Features step-by-step playback and animated transitions",
+      "Includes pseudo-code highlighting and topic-specific visual layouts"
+    ],
+    github: "https://github.com/Tushar1234shinde/DSA_WEBSITE.git",
+    live: "https://dsawebsite-six.vercel.app/"
+  },
   {
     title: "E-Commerce Web Application",
     techStack: ["React", "Spring Boot", "MySQL", "Material UI", "Tailwind CSS"],

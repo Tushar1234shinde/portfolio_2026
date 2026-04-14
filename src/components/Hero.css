@@ -97,6 +97,24 @@
   transition: var(--transition-smooth);
 }
 
+.secondary-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: transparent;
+  color: var(--text-primary);
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 1px solid var(--accent-cyan);
+  transition: var(--transition-smooth);
+}
+
+.secondary-btn:hover {
+  background: rgba(6, 182, 212, 0.1);
+}
+
 .social-links {
   display: flex;
   gap: 1.5rem;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ChevronDown, ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
+import { ChevronDown, ArrowRight, Github, Linkedin, Mail, Download } from 'lucide-react';
 import { personalInfo } from '../data';
 import './Hero.css';
 
@@ -50,6 +50,16 @@ const Hero = () => {
             whileTap={{ scale: 0.95 }}
           >
             Explore Work <ArrowRight size={20} />
+          </motion.a>
+          
+          <motion.a 
+            href="/Tushar_Shinde_resume_1.pdf" 
+            download="Tushar_Shinde_Resume.pdf"
+            className="secondary-btn"
+            whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(6, 182, 212, 0.3)", y: -2 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Resume <Download size={20} />
           </motion.a>
           
           <div className="social-links">
